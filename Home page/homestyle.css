@@ -1,0 +1,275 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+.Groww_top{
+    width:100%;
+    height:100px;
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+    
+}
+.Groww_logo {
+    width:100px;
+    font-size: 50px;
+    color :#08ca9a;
+    font-weight:bold;
+    height:79px;
+    display:flex;
+    align-items:center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.Groww_logo img{
+    width:350px;
+    height : 80px;
+}
+.Groww_searchContainer{
+    border:1px solid #ccc;
+    width:443px;
+    height:41px;
+    display:flex;
+    align-items:center;
+    padding: 0 10px;
+    border-radius:10px;
+}
+.Groww_searchContainer input{
+    margin:0 10px;
+    font-size:16px;
+    width:100%;
+    border:none;
+    outline:none;
+}
+.Groww_searchContainer i{
+    font-size:15px;
+    color:#beb9b9
+}
+.Groww_LoginRegister{
+    width: 180px;
+    height:50px;
+    display:flex;
+    text-decoration: none;
+    align-item:center;
+}
+.Groww_LoginRegister button{
+    background-color: #08ca9a;
+    border:none;
+    width:200px;
+    height:40px;
+    /*color:white;*/
+    font-size:18px;
+    border-radius:10px;
+}
+
+/************************************************/
+/*              Middle Part                     */
+/************************************************/
+
+.Groww_Started_Container {
+    width:500px;
+    height:55px;
+    
+    
+    align-item:center;
+}
+
+.Groww_StartedButton{
+    padding:15px 70px;
+    background-color: #08ca9a;
+    border:none;
+    width:200px;
+    height:40px;
+    font-size:18px;
+    border-radius:10px;
+   outline:none;
+   text-decoration: none;
+   border:none;
+}
+.Groww_StartedButton:hover, 
+.Groww_StartedButton:focus
+{
+    background-color:rgb(15, 224, 196);
+    outline:none;
+}
+
+
+.InvestIn{
+    display:flex;
+    font-size:30px;
+    color:#44475b;
+    font-weight:500;
+}
+
+.Slider_Vertical{
+    text-indent:15px;
+    height:40px;
+    display:flex;
+    flex-direction:column-reverse;
+    overflow:hidden;
+}
+.Slider_Vertical span{
+    display:flex;
+    flex-direction:column;
+    animation:verticalSlide 7s infinite;
+    position:relative;
+    height:80px;
+}
+
+/******Animation**********/
+@keyframes verticalSlide {
+    0%{
+        bottom:0;
+    }
+    17%{
+        bottom:-40px;
+    }
+    34%{
+        bottom:-80px;
+    }
+    68%{
+        bottom:-120px;
+    }
+    85%{
+        bottom:-160px;
+    }
+    100%{
+        bottom:-200px;
+    }
+}
+
+/** color */
+.Stocks_Color{
+    color:blue;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.MutualFunds_Color{
+    color:green;
+
+}
+.FutureOptions_Color{
+    color:violet;
+    
+    
+}
+.IPO_Color{
+    color:grey;
+   
+    
+}
+.USStocks_Color{
+    color:darkgoldenrod;
+   
+    
+}
+.FDs_Color{
+    color:darkcyan;
+    
+}
+/**** middle right*/
+.Groww_Middle_col2{
+    display:flex;
+}
+.Groww_Middle_col2 a{
+    width:205px;
+    height:150px;
+    box-shadow: 3px 6px 24px rgba(0,0,0,0.1);
+    border-radius:20px;
+    margin-top:15PX;
+    margin-bottom:15px;
+    margin-left:50px;
+    padding:20px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    text-decoration:none;
+}
+.middle_part{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    flex-direction:row;
+    margin:30px 100px;
+}
+.Groww_Middle_Left_Text{
+    margin:20px 0px;
+    font-size: 20px;
+    width:400px;
+    
+}
+.login_button{
+  text-decoration: none; /* Remove underline */
+}
+.login_button:active, .login_button:focus {
+    outline: none; /* Remove focus outline */
+    color: white; /* Keep text color white */
+  }
+
+
+  section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+/* About Us section */
+#about-us {
+    background-color:whitesmoke;
+    
+    border-radius: 8px;
+}
+.About_us{
+    font-size: 16px;
+    line-height:1.5;
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing:2px;
+
+}
+
+/* Contact Us section */
+#contact-us {
+    background-color:whitesmoke;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+/* Form styles */
+#contact-us form {
+    display: flex;
+    flex-direction: column;
+    font-size:16px;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+
+#contact-us label {
+    margin-top: 10px;
+}
+
+#contact-us input, 
+#contact-us textarea {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#contact-us button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #08ca9a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#contact-us button:hover {
+    background-color: #07b891;
+}
+
+body {
+    
+}
+
